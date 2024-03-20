@@ -1,0 +1,10 @@
+package Counstructoer;
+
+public class Overloded_counstrutoer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

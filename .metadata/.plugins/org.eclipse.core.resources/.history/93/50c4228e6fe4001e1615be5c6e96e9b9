@@ -1,0 +1,21 @@
+package Counstructoer;
+
+class Demo
+{
+	Demo() // defoult counstructoer
+	{
+		System.out.println("inside the counstructoer");
+	}
+	
+	
+}
+
+public class Syntex_Counstrucoer
+{
+
+	public static void main(String[] args) 
+	{
+		Demo obj = new Demo();
+	}
+
+}

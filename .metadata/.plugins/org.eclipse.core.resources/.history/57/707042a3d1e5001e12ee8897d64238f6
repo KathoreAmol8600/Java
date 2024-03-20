@@ -1,0 +1,11 @@
+package Inheritanse;
+class Vechile
+public class Exe_Vechiles {
+
+	public static void main(String[] args) 
+	{
+		
+    
+	}
+
+}
