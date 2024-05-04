@@ -90,7 +90,7 @@ class Vehicles
 	int distCoverded(int time)
 	{
 		int dist_Coverded=0;
-//		 methoed for the Calculation of the Distanse coverdede
+        
 		return dist_Coverded;
 	}
 	
