@@ -3,6 +3,7 @@ package statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 //import java.sql.Connection;
 public class connectionApp {
 
@@ -15,15 +16,24 @@ public class connectionApp {
 	     if(conn!=null)
 	     {
 	    	 System.out.println("Database connected Successfully......"+conn);
-	    	 
-	    	
+	    	 Statement stmt = conn.createStatement();
+	    	 if(stmt!=null)
+	    	 {
+	    		 System.out.println("Stetment create secsefulley");
+	    		 int ret = stmt.executeUpdate("insert into student values(2,'ganesh',85)");
+	    		 if(ret>0)
+	    		 {
+	    			 System.out.println("operation got secsefulley");
+	    		 }else {
+	    			 System.out.println("smothing errer for operation");
+	    		 }
+	    	 }
 	     }
 	     else
 	     {
 	    	 System.out.println("Database not connected......");
 	     } 
-	
-	     
+	  
 }
 }
 	
